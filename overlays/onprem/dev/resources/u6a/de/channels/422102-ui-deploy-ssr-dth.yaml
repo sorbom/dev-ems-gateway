@@ -1,0 +1,19 @@
+---
+apiVersion: scc.skytv.it/v1
+kind: EMSChannel
+metadata:
+  name: "de-422102-ui-deploy-ssr-dth"
+spec:
+  name: "ui-deploy-ssr-dth"
+  ibmsCode: "EventsSource"
+  streamId: ""
+  playoutID: ""
+  serviceKey: "422102"
+  cra: false
+  enabled: true
+  territory: "DE"
+  ppv: false
+  quality: "4k"
+  settings:
+  propositions:
+    DTH: true
