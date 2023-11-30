@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
 - channels/422101-ui-deploy-sde-dth.yaml
 - encoders/ui-deploy-sde-dth-encoder.yaml
+- channels/422102-ui-deploy-ssr-dth.yaml
+- encoders/ui-deploy-ssr-dth-encoder.yaml
